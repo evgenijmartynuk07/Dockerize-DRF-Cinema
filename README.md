@@ -21,6 +21,8 @@ set POSTGRES_DB=<your db name>
 set POSTGRES_USER=<your db user>
 set POSTGRES_PASSWORD=<your db password>
 
+or you can create .env and set there
+
 python manage.py migrate
 python manage.py runserver
 ```
