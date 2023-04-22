@@ -25,13 +25,21 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+## Run with Docker
 
-## Link to the Project
+Docker should be installed
 
-[It company task manager project deployed to Render](https://it-manager-project.onrender.com/)
+```shell
+docker-compose build
+docker-compose up
+```
 
-You may use such credentials:
+## Getting Access
 
-Username: usertest
+Docker should be installed
 
-Password: user12345
+```shell
+Create user -> /api/user/register/
+Get access token -> /api/user/token/
+```
+
